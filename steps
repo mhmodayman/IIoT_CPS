@@ -1,0 +1,24 @@
+run on ubuntu 20.04
+run ros neotic
+run carla 0.9.13
+run using python 3.7
+
+
+in a separate terminal window run roscore
+
+in another separate terminal
+cd to src/pro/scripts/PythonAPI
+and run ./carla_docker_img.sh
+
+in another separate terminal
+cd to src/pro/scripts/PythonAPI/iot
+and run ./pro_node.py "yes run python file as executable"
+but how can the python file knows which python version to use?
+from the first line in the script "#!/usr/bin/env python3.7"
+
+in another separate terminal
+cd to src/pro/scripts/PythonAPI/examples
+and run ./mainScript.py "yes run python file as executable"
+but how can the python file knows which python version to use?
+from the first line in the script "#!/usr/bin/env python3.7"
+
